@@ -11,4 +11,4 @@ class test_package1(unittest.TestCase):
         self.assertEqual(tp.test(), 10)
 
     def test_case2(self):
-        self.assertNotEqual(tp.test(), 10)
+        self.assertNotEqual(tp.test(), 11)
