@@ -5,50 +5,55 @@
 
 해당 프로젝트를 본 프로젝트에 적용하기 위해서는 기존의 예시 코드를 지우시면 됩니다
 
-## directory
+## Directory
 
-* config
-* docs
-* packages
-* tests
-* utils
+* config/
+* docs/
+* packages/
+* tests/
+* utils/
+* pipeline/
 
 * app.py
 * README.md
 * requirements.txt
 * setup.py
-* makefile
+* Makefile
 
-## config
+### config/
 
 해당 프로젝트의 각종 설정파일을 가지고 있는다.
 
-## docs
+### docs/
 
 해당 프로젝트의 여러 문서를 작성한다.
 
-## app.py
+### pipeline/
+
+디비, 파일 연결 및 조작을 담당한다.
+
+### app.py
  
 프로젝트 실행 파일
 
-## ./tests/
+### tests/
 
 테스트 코드가 들어있다
 
-## ./tests/text.py
+### tests/text.py
 
 테스트 코드 실행
 
-## ./packages/
+### packages/
 
-패키지가 들어있다 패키지는 디렉토리 단위로 생성을 하며 __init__.py 파일을 정의한다.
-__init__.py에는 해당 패키지의 정보를 관리한다.
+패키지가 들어있다 패키지는 디렉토리 단위로 생성을 하며 `__init__.py` 파일을 정의한다.
+`__init__.py`는 해당 패키지의 정보관리를 한다
 
-## requirements.txt
+### requirements.txt
 
 해당 프로젝트의 의존성 모듈을 관리하다.
 
-## setup.py
+### setup.py
 
 setuptools를 이용하여 테스트, 빌드, 배포과정을 쉽게 관리해주는 코드를 작성한다.
 
